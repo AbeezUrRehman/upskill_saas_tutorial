@@ -17,10 +17,12 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+//Topography Styles
 h1, h2 ,h3{
     font-family: 'Nunito', sans-serif;
 }           
 
+//Background Gradient 
 .navbar, .home-callout{
     //Gradient by 
     background: #E44D26; 
@@ -28,10 +30,20 @@ h1, h2 ,h3{
     background: linear-gradient(to right, #F16529, #E44D26); 
 }
 
+//Nav Styles
 .navbar{
     border:none;
 }
 
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color: white;
+    &:hover {
+      color: white;
+      opacity: 0.75;
+    }
+}
+
+//Home Page Styles
 .home-callout{
     color: white;
     margin-top: -20px;
@@ -39,18 +51,4 @@ h1, h2 ,h3{
     padding-bottom: 100px;
 }
 
-.navbar-default .navbar-brand{
-    color: white;
-}
 
-.navbar-default .navbar-nav > li > a {
-  color: white;
-}
-.navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.75;
-}
-.navbar-default .navbar-nav > li > a:hover {
-  color: white;
-  opacity: 0.75;
-}

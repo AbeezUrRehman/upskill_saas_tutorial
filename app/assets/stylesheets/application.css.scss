@@ -19,13 +19,22 @@
 
 h1, h2 ,h3{
     font-family: 'Nunito', sans-serif;
-}            
+}           
 
-body, .navbar{
-    background: #4AC29A;
-    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A); 
-    background: linear-gradient(to right, #BDFFF3, #4AC29A); 
+.navbar, .home-callout{
+    //Gradient by 
+    background: #f12711; 
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
+    background: linear-gradient(to right, #f5af19, #f12711); 
 }
+
 .navbar{
     border:none;
+}
+
+.home-callout{
+    color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }

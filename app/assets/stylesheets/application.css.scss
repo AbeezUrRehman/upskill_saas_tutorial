@@ -19,4 +19,13 @@
 
 h1, h2 ,h3{
     font-family: 'Nunito', sans-serif;
+}            
+
+body, .navbar{
+    background: #4AC29A;
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A); 
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); 
+}
+.navbar{
+    border:none;
 }
